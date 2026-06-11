@@ -1,0 +1,37 @@
+{
+  "name": "website-skills",
+  "owner": {
+    "name": "local"
+  },
+  "metadata": {
+    "description": "AI 建站与部署工作流 skill：需求分析、风格定位、UI 规范、首页开发、截图审查、部署上线。",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "website",
+      "description": "当用户明确输入 /website、+website、/建站、+建站、/网站、+网站，或明确要求使用 website skill 时使用；用于创建漂亮、专业、可部署的网站项目，覆盖需求分析、UI 规范、前端实现、审查优化和部署上线。",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "category": "website-building",
+      "keywords": [
+        "website",
+        "/website",
+        "+website",
+        "建站",
+        "/建站",
+        "网站",
+        "web design",
+        "landing page",
+        "nextjs",
+        "tailwind",
+        "shadcn",
+        "deploy"
+      ],
+      "skills": [
+        "./skills/website"
+      ]
+    }
+  ]
+}
