@@ -4,13 +4,13 @@
     "name": "local"
   },
   "metadata": {
-    "description": "AI 建站与部署工作流 skill：需求分析、风格定位、UI 规范、首页开发、截图审查、部署上线。",
-    "version": "1.0.0"
+    "description": "AI 建站与部署工作流 skill：需求分析、风格定位、UI 规范、首页开发、截图审查、部署上线；支持文献检索、文献年限筛选、可视化分析和 AI 综述写作网站方案。",
+    "version": "1.1.0"
   },
   "plugins": [
     {
       "name": "website",
-      "description": "当用户明确输入 /website、+website、/建站、+建站、/网站、+网站，或明确要求使用 website skill 时使用；用于创建漂亮、专业、可部署的网站项目，覆盖需求分析、UI 规范、前端实现、审查优化和部署上线。",
+      "description": "当用户明确输入 /website、+website、/建站、+建站、/网站、+网站，或明确要求使用 website skill 时使用；用于创建漂亮、专业、可部署的网站项目，覆盖需求分析、UI 规范、前端实现、审查优化和部署上线；支持文献检索与综述写作网站：文献年限筛选、关键词检索、可视化文献页面、OpenAI 兼容第三方接口生成综述草稿。",
       "source": "./",
       "strict": false,
       "version": "1.0.0",
@@ -27,7 +27,11 @@
         "nextjs",
         "tailwind",
         "shadcn",
-        "deploy"
+        "deploy",
+        "literature review",
+        "文献综述",
+        "文献检索",
+        "openai"
       ],
       "skills": [
         "./skills/website"
